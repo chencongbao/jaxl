@@ -44,7 +44,7 @@
     "bin": ["jaxlctl"],
     "extra": {
         "branch-alias": {
-            "dev-master": "master"
+            "dev-master": "v1.0"
         }
     }
 }

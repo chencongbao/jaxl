@@ -225,7 +225,7 @@ class JAXL extends XMPPStream
         // if 'bosh_url' cfg is defined include 0206
         if (isset($this->cfg['bosh_url'])) {
             JAXLLogger::debug("including bosh xep");
-            $this->require_xep('0206');
+            $this->require_xep(['0206']);
             $transport = $this->xeps['0206'];
         } else {
             $transport = new JAXLSocketClient($this->cfg['stream_context']);

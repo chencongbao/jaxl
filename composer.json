@@ -1,7 +1,7 @@
 {
-    "name":        "jaxl/jaxl",
+    "name":        "chencongbao/jaxl",
     "type":        "library",
-    "description": "Jaxl - Async, Non-Blocking, Event based Networking Library in PHP.",
+    "description": "基于网上的jaxl开源类库，修改了几个bug",
     "keywords":    ["xmpp", "jabber", "http", "asynchronous", "non blocking", "event loop", "php", "jaxl", "abhinavsingh"],
     "homepage":    "http://jaxl.readthedocs.org/en/latest/index.html",
     "license":     "BSD-3-Clause",
@@ -12,8 +12,8 @@
     },
     "authors": [
         {
-            "name": "Abhinavsingh",
-            "homepage": "https://abhinavsingh.com/"
+            "name": "bog",
+            "homepage": "https://www.cfdlm.com/"
         }
     ],
     "require": {

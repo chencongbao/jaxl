@@ -36,7 +36,7 @@
     },
     "autoload": {
         "classmap": [
-            "src/jaxl"
+            "src/xmpp"
         ],
         "exclude-from-classmap": [
             "/tests/"

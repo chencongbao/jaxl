@@ -5,7 +5,6 @@
     "keywords":    ["xmpp", "jabber", "http", "asynchronous", "non blocking", "event loop", "php", "jaxl", "abhinavsingh"],
     "homepage":    "http://jaxl.readthedocs.org/en/latest/index.html",
     "license":     "BSD-3-Clause",
-    "version":      "v1.4",
     "support": {
         "forum":   "https://groups.google.com/forum/#!forum/jaxl",
         "issues":  "https://github.com/jaxl/JAXL/issues",
@@ -42,10 +41,5 @@
             "/tests/"
         ]
     },
-    "bin": ["jaxlctl"],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.4.x-dev"
-        }
-    }
+    "bin": ["jaxlctl"]
 }

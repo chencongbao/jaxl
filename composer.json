@@ -42,5 +42,10 @@
             "/tests/"
         ]
     },
-    "bin": ["jaxlctl"]
+    "bin": ["jaxlctl"],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.4.x-dev"
+        }
+    }
 }

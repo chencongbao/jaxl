@@ -64,6 +64,7 @@ class JAXLLoop
 
     private function __construct()
     {
+        JAXLLogger::debug("Watch: active read fds: ".self::$active_read_fds.", write fds: ".self::$active_write_fds);
     }
 
     private function __clone()

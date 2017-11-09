@@ -96,7 +96,7 @@ class JAXLLoop
             if (isset(self::$read_fds[$fdid])) {
                 unset(self::$read_fds[$fdid]);
                 unset(self::$read_cbs[$fdid]);
-                --self::$active_read_fds;
+                self::$active_read_fds = 0;
             }
         }
 
@@ -105,7 +105,7 @@ class JAXLLoop
             if (isset(self::$write_fds[$fdid])) {
                 unset(self::$write_fds[$fdid]);
                 unset(self::$write_cbs[$fdid]);
-                --self::$active_write_fds;
+                self::$active_write_fds = 0;
             }
         }
 

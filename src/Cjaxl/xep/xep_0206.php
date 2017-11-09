@@ -252,6 +252,7 @@ class XEP0206 extends XMPPXep implements JAXLClientBase
             $attrs['from'] = $this->jaxl->cfg['jid'];
         }
         $body = new JAXLXml('body', self::NS_HTTP_BIND, $attrs);
+        JAXLLogger::debug("body=".$body->to_string);
         $this->send($body);
     }
     
